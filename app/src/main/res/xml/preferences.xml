@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/api_settings">
+
+        <EditTextPreference
+            android:key="apiKey"
+            android:title="@string/custom_api_key"
+            android:icon="@drawable/ic_settings_api"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/interface_settings">
+
+        <ListPreference
+            android:defaultValue="system"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_entry_values"
+            android:key="theme"
+            android:title="@string/choose_theme"
+            android:icon="@drawable/ic_theme"
+            app:useSimpleSummaryProvider="true"/>
+
+        <ListPreference
+            android:defaultValue="grid"
+            android:key="view"
+            android:title="@string/choose_view"
+            android:entries="@array/view_entries"
+            android:entryValues="@array/view_entry_values"
+            android:icon="@drawable/ic_list"
+            app:useSimpleSummaryProvider="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/updates">
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="updates"
+            android:title="@string/updates"
+            android:summary="@string/updates_summary"
+            android:icon="@drawable/ic_update" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="notifications"
+            android:dependency="updates"
+            android:title="@string/notifications"
+            android:summary="@string/notifications_summary"
+            android:icon="@drawable/ic_notifications" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/auto_wallpaper">
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="wallpaper"
+            android:title="@string/auto_wallpaper"
+            android:summary="@string/auto_wallpaper_summary"
+            android:icon="@drawable/ic_settings_set_as" />
+
+        <ListPreference
+            android:defaultValue="low"
+            android:key="autoWallpaperQuality"
+            android:dependency="wallpaper"
+            android:entries="@array/auto_wallpaper_quality_entries"
+            android:entryValues="@array/auto_wallpaper_quality_entry_values"
+            android:title="@string/auto_wallpaper_quality"
+            android:icon="@drawable/ic_settings_image"
+            app:useSimpleSummaryProvider="true"/>
+
+        <ListPreference
+            android:defaultValue="both"
+            android:key="wallpaperTarget"
+            android:dependency="wallpaper"
+            android:entries="@array/wallpaper_target_entries"
+            android:entryValues="@array/wallpaper_target_entry_values"
+            android:title="@string/wallpaper_target"
+            android:icon="@drawable/ic_phone_screen"
+            app:useSimpleSummaryProvider="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/image_quality">
+
+        <ListPreference
+            android:defaultValue="ask"
+            android:key="saveQuality"
+            android:entries="@array/image_quality_entries"
+            android:entryValues="@array/image_quality_entry_values"
+            android:title="@string/image_save_quality"
+            android:icon="@drawable/ic_settings_save"
+            app:useSimpleSummaryProvider="true"/>
+
+        <ListPreference
+            android:defaultValue="ask"
+            android:key="shareQuality"
+            android:entries="@array/image_quality_entries"
+            android:entryValues="@array/image_quality_entry_values"
+            android:title="@string/image_share_quality"
+            android:icon="@drawable/ic_settings_share"
+            app:useSimpleSummaryProvider="true"/>
+
+        <ListPreference
+            android:defaultValue="ask"
+            android:key="setAsQuality"
+            android:entries="@array/image_quality_entries"
+            android:entryValues="@array/image_quality_entry_values"
+            android:title="@string/image_set_as_quality"
+            android:icon="@drawable/ic_settings_set_as"
+            app:useSimpleSummaryProvider="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/formatting">
+
+        <Preference
+            android:title="@string/text_formatting"
+            android:icon="@drawable/ic_format_text"/>
+
+        <EditTextPreference
+            android:key="saveFilename"
+            android:defaultValue="@string/filename_default_format"
+            android:title="@string/save_filename"
+            android:icon="@drawable/ic_settings_save"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            android:key="shareFormat"
+            android:defaultValue="@string/share_text_default_format"
+            android:title="@string/share_text_format"
+            android:icon="@drawable/ic_settings_share"
+            app:useSimpleSummaryProvider="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/storage">
+
+        <Preference
+            android:title="@string/clear_database"
+            android:summary="@string/clear_database_summary"
+            android:icon="@drawable/ic_list"/>
+
+        <Preference
+            android:title="@string/clear_image_cache"
+            android:summary="@string/clear_image_cache_summary"
+            android:icon="@drawable/ic_settings_image"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

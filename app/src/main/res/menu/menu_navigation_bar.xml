@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_item_recent"
+        android:title="@string/recent"
+        android:enabled="true"
+        android:icon="@drawable/ic_month"/>
+
+    <item
+        android:id="@+id/menu_item_discover"
+        android:title="@string/discover"
+        android:enabled="true"
+        android:icon="@drawable/ic_saturn"/>
+
+    <item
+        android:id="@+id/menu_item_bookmarks"
+        android:title="@string/bookmarks"
+        android:enabled="true"
+        android:icon="@drawable/ic_bookmarked"/>
+
+    <item
+        android:id="@+id/menu_item_settings"
+        android:title="@string/settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings"/>
+
+    <item
+        android:id="@+id/menu_item_about"
+        android:title="@string/about"
+        android:enabled="true"
+        android:icon="@drawable/ic_info"/>
+
+</menu>

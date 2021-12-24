@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_size" />
+
+        <SeekBar
+            android:id="@+id/size_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:max="35" />
+
+        <EditText
+            android:id="@+id/size_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:inputType="numberDecimal"
+            android:maxLength="2"
+            android:maxLines="1"
+            tools:text="14"/>
+
+        <TextView
+            android:id="@+id/size_error_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/text_size_error"
+            app:drawableStartCompat="@drawable/ic_info"
+            android:drawablePadding="10dp"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/grey"
+            android:orientation="vertical" />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_typeface" />
+
+        <RadioGroup
+            android:id="@+id/type_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <RadioButton
+                android:id="@+id/normal_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:typeface="normal"
+                android:text="@string/normal"/>
+
+            <RadioButton
+                android:id="@+id/sans_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:typeface="sans"
+                android:text="@string/sans"/>
+
+            <RadioButton
+                android:id="@+id/serif_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:typeface="serif"
+                android:text="@string/serif"/>
+
+            <RadioButton
+                android:id="@+id/mono_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:typeface="monospace"
+                android:text="@string/mono"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

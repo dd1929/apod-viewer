@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_newest"
+        android:title="@string/newest_month"
+        android:icon="@drawable/ic_newest"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_item_newer"
+        android:title="@string/newer_month"
+        android:icon="@drawable/ic_newer"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_item_older"
+        android:title="@string/older_month"
+        android:icon="@drawable/ic_older"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_item_oldest"
+        android:title="@string/oldest_month"
+        android:icon="@drawable/ic_oldest"
+        app:showAsAction="ifRoom"/>
+
+</menu>

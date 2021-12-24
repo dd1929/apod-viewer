@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_hd"
+        android:title="@string/view_high_quality"
+        android:icon="@drawable/ic_hd"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_item_view_in_browser"
+        android:title="@string/view_in_browser"
+        android:icon="@drawable/ic_world"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_item_set_as"
+        android:title="@string/set_as"
+        android:icon="@drawable/ic_set_as"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_item_bookmark"
+        android:title="@string/bookmark_apod"
+        android:icon="@drawable/ic_not_bookmarked"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_item_save"
+        android:title="@string/save"
+        android:icon="@drawable/ic_save_to_device"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_item_share"
+        android:title="@string/share"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="always"/>
+
+</menu>
