@@ -1,0 +1,290 @@
+<resources>
+    <string name="app_name">APOD Viewer</string>
+    <string name="author">Deepto Debnath</string>
+    <string name="app_desc">A simple app to view images from NASA\'s APOD service</string>
+    <string name="app_large_desc">APOD Viewer is an open-source app that allows you to view APODs from NASA, as well as share, save and download them, or set them as wallpaper.</string>
+    <string name="app_cr">Copyright © 2021  Deepto Debnath</string>
+    <string name="app_src">https://github.com/dd1929/apod-viewer/</string>
+    <string name="apod_title">Astronomy Picture Of the Day</string>
+    <string name="apod_subtitle">NASA</string>
+    <string name="apod_desc">Astronomy Picture Of the Day (APOD) is originated, written, coordinated and edited since 1995 by Robert Nemiroff and Jerry Bonnell. The APOD archive contains the largest collection of annotated astronomical images on the internet.</string>
+
+    <!-- Generic Strings used throughout the app -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="title">Title</string>
+    <string name="copyright">Copyright: %1$s</string>
+    <string name="libs_title">Libraries</string>
+    <string name="libs">Thanks to these libraries for making my work easy!</string>
+    <string name="date_picker_title">Pick date of APOD:</string>
+    <string name="view_latest">View Latest APOD</string>
+    <string name="details">APOD Details</string>
+    <string name="settings">Settings</string>
+    <string name="version">Version: %1$s (%2$d)</string>
+    <string name="about">About</string>
+    <string name="view_license">View License</string>
+    <string name="view_full_license">View Full License</string>
+    <string name="view_source">View Source Code</string>
+    <string name="contribute">Contribute</string>
+    <string name="main_apod_site">Main Site</string>
+    <string name="about_apod">More About APOD</string>
+    <string name="sad_face">:(</string>
+    <string name="no_network">There seems to be no network connection. Try connecting to the Internet and retrying.</string>
+    <string name="no_network_message">No Internet Connection :(</string>
+    <string name="yes_network_message">Connected to Internet :)</string>
+    <string name="share_image">Share APOD:</string>
+    <string name="loading">Loading…</string>
+    <string name="info">APOD Info</string>
+    <string name="no_bookmarks">¯\\_(ツ)_/¯ \nNo Bookmarks</string>
+    <string name="how_to_bookmark">Tap the bookmark button to bookmark an APOD</string>
+    <string name="no_discover">You haven\'t discovered any APODs yet. Tap the button below to begin!</string>
+    <string name="close">Close</string>
+    <string name="new_apod">There is a new APOD</string>
+
+    <string name="image_save_successful">Image saved to gallery!</string>
+    <string name="image_save_unsuccessful">Image could not be saved!</string>
+    <string name="image_share_unsuccessful">Image could not be shared!</string>
+    <string name="image_set_as_unsuccessful">Image could not be set!</string>
+    <string name="saving_image">Saving Image…</string>
+    <string name="getting_image">Getting Image…</string>
+    <string name="other_no_hd">HD version of this not available!</string>
+    <string name="other_set_as">This cannot be set as wallpaper or other image!</string>
+    <string name="other_save">This cannot be saved!</string>
+
+    <!-- Menu Item Strings -->
+    <string name="date">Find an APOD by date</string>
+    <string name="refresh">Refresh</string>
+    <string name="sort">Sort APODs</string>
+    <string name="filter">Filter APODs</string>
+
+    <!-- Navigation Bar Strings -->
+    <string name="recent">Recent</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="discover">Discover</string>
+    <string name="search">Search</string>
+
+    <!-- SettingsFragment Strings -->
+    <string name="api_settings">API</string>
+    <string name="custom_api_key">Use a custom APOD API key from \nhttps://api.nasa.gov/</string>
+    <string name="interface_settings">Interface</string>
+    <string name="choose_theme">Choose App Theme</string>
+    <string name="choose_view">Choose List Type</string>
+    <string name="updates">Updates</string>
+    <string name="updates_summary">Allow APOD Viewer to automatically check for new APODs and update the local database in the background</string>
+    <string name="notifications">Notifications</string>
+    <string name="notifications_summary">Allow APOD Viewer to notify you of new APODs</string>
+    <string name="auto_wallpaper">Auto Set Wallpaper</string>
+    <string name="auto_wallpaper_summary">Allow APOD Viewer to automatically set new APODs as device wallpaper</string>
+    <string name="auto_wallpaper_quality">Wallpaper Quality</string>
+    <string name="auto_wallpaper_prompt">Do you want to set today\'s APOD as wallpaper now?</string>
+    <string name="wallpaper_target">Set Wallpaper On</string>
+    <string name="image_quality">Image Quality</string>
+    <string name="image_save_quality">Default quality while saving image</string>
+    <string name="image_share_quality">Default quality while sharing image</string>
+    <string name="image_set_as_quality">Default quality while setting image as wallpaper or other photo</string>
+    <string name="formatting">Formatting</string>
+    <string name="text_formatting">Text formatting for APOD description</string>
+    <string name="save_filename">Format for filenames while saving APODs</string>
+    <string name="share_text_format">Format for text while sharing APODs</string>
+    <string name="filename_default_format">APOD_&lt;DATE&gt;</string>
+    <string name="share_text_default_format">&lt;TITLE&gt;\n\n&lt;DETAILS&gt;</string>
+    <string name="storage">Storage</string>
+    <string name="clear_database">Clear database</string>
+    <string name="clear_database_summary">Clear local database of APOD data (does not clear cached images)</string>
+    <string name="clearing_database">Clearing local database…</string>
+    <string name="clear_database_successful">Successfully cleared local APOD database!</string>
+    <string name="clear_image_cache">Clear cached images</string>
+    <string name="clear_image_cache_summary">Clear locally cached images (does not clear local database of APODs)</string>
+    <string name="clearing_image_cache">Clearing cached images…</string>
+    <string name="clear_image_cache_successful">Successfully cleared cached images!</string>
+
+    <!-- Permission Denied Strings -->
+    <string name="storage_permission_denied">Without granting access to storage, images cannot be saved to your device.</string>
+
+    <!-- Permission Rationales -->
+    <string name="storage_permission_rationale">In order to save the image to your device, permission to access storage is required. Please grant it in order to save the image. You won\'t have to grant this again.</string>
+
+    <!-- MonthYearFragment Strings -->
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+
+    <!-- GenericMessageFragment Strings-->
+    <string name="permission_denied">Permission Denied</string>
+    <string name="grant_permission">Grant Permission</string>
+
+    <!-- LinkPreviewFragment Strings -->
+    <string name="link_preview">Link Preview</string>
+    <string name="link">Link: %1$s</string>
+    <string name="open_in_browser">Open In Browser</string>
+
+    <!-- ImageQualityFragment Strings -->
+    <string name="save_pref">Save my preference</string>
+    <string name="normal_quality">Normal Quality</string>
+    <string name="high_quality">High Quality</string>
+    <string name="high_quality_notice">The High Quality image for some APODs may be significantly different from the Normal Quality one. You can view the High Quality image in-app by using the [HD] button.</string>
+
+    <!-- TextFormatFragment Strings -->
+    <string name="text_size">Font Size</string>
+    <string name="text_typeface">Font Type</string>
+    <string name="text_style">Font Style</string>
+    <string name="normal">Normal</string>
+    <string name="sans">Sans Serif</string>
+    <string name="serif">Serif</string>
+    <string name="mono">Monospace</string>
+    <string name="bold">Bold</string>
+    <string name="italic">Italic</string>
+    <string name="text_size_error">Text size must be between 5 and 40</string>
+
+    <!-- APODSortFragment Strings -->
+    <string name="sort_by">Sort By</string>
+    <string name="sort_order">Sort Order</string>
+    <string name="attr_title">APOD Title</string>
+    <string name="attr_date">APOD Date</string>
+    <string name="attr_copyright">APOD Copyright</string>
+    <string name="attr_details">APOD Details</string>
+    <string name="ascending">Ascending</string>
+    <string name="descending">Descending</string>
+
+    <!-- APODFilterFragment Strings -->
+    <string name="filter_media_type">Filter Media Type</string>
+    <string name="filter_copyright">Filter Copyright</string>
+    <string name="show_images">Show Images</string>
+    <string name="show_videos">Show Videos and Other Media</string>
+    <string name="show_copyright">Show APODs with Copyright</string>
+    <string name="show_no_copyright">Show APODs without Copyright</string>
+
+    <!-- RecentFragment Strings -->
+    <string name="month_year_dummy_text">Month Year</string>
+    <string name="newest_month">Latest Month</string>
+    <string name="newer_month">Next Month</string>
+    <string name="older_month">Previous Month</string>
+    <string name="oldest_month">Oldest Month</string>
+
+    <!-- SearchFragment Strings -->
+    <string name="search_hint">Search APODs</string>
+
+    <!-- AboutAppFragment Strings -->
+    <string name="visit_website">Visit Website</string>
+    <string name="faq">FAQ</string>
+    <string name="author_title">Author</string>
+    <string name="github">GitHub</string>
+    <string name="email">Email</string>
+    <string name="telegram">Telegram</string>
+    <string name="disclaimer_title">Disclaimer</string>
+    <string name="disclaimer_text">This app is not endorsed by NASA.</string>
+    <string name="img_license_title">Imagery Licenses</string>
+    <string name="img_license_text"><![CDATA[All APODs are credited to the owner or institution where they originated. Some of the images are copyrighted and to use these pictures publicly or commercially one must write to the owners for permission. For more information, go <a href="https://apod.nasa.gov/apod/lib/about_apod.html#srapply">here</a>.<br><br>The image of Saturn used here (beside the APOD description at the top of this page) is from NASA and can be found <a href="https://solarsystem.nasa.gov/resources/663/saturn-taken-from-voyager-2/">here</a>.<br><br><br>All icons used in this app, excluding the app icon (Saturn icon), and the GitHub and Telegram icons, are from <a href="https://fonts.google.com/icons?selected=Material+Icons">Google\'s Material Design Icons</a>, used under the <a href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache License v2.0</a>.<br><br>The GitHub icon has been used from GitHub, and the same can be found <a href="https://github.com/logos">here</a>.<br><br>The Telegram icon has been used from Telegram, and the same can be found <a href="https://telegram.org/tour/screenshots>here</a>.<br><br><br>The app icon (Saturn icon) has been designed by Deepto Debnath.]]></string>
+    <string name="special_thanks_title">Special thanks to the following for making my work easy!</string>
+    <string name="special_thanks_text"><![CDATA[Firstly, thanks to everyone and everything that helped me learn Android development.<br><br><a href="https://www.gimp.org">GIMP</a> for making it easy to create a great app icon, and also to tweak other icons.<br><br><a href="https://developer.android.com/studio/">Android Studio</a> for making Android app development easy.<br><br>The <a href="https://docs.oracle.com/en/java">Java</a> and <a href="https://developer.android.com/docs/">Android Documentation</a>.<br><br>All those wonderful Q/A threads on <a href="https://stackoverflow.com">Stack Overflow</a> that helped me solve problems I faced.<br><br>All those blogs as well as <a href="https://www.youtube.com/">YouTube</a> videos that showed me how to do various stuff in this app.<br><br>Thanks to everyone who helped test this app.<br><br>And last, but not the least, thanks to you for using this app!]]></string>
+
+    <!-- ImageButton contentDescriptions-->
+    <string name="view_high_quality">View High Quality Version</string>
+    <string name="view_normal_quality">View Normal Quality Version</string>
+    <string name="view_in_browser">View in Browser</string>
+    <string name="set_as">Set APOD As</string>
+    <string name="bookmark_apod">Bookmark this APOD</string>
+    <string name="save">Save to device</string>
+    <string name="share">Share</string>
+    <string name="show_details">Show APOD Details</string>
+    <string name="hide_details">Hide APOD Details</string>
+    <string name="change_text_formatting">Change Text Formatting</string>
+    <string name="lock_layout">Layout is unlocked, tap to lock</string>
+    <string name="unlock_layout">Layout is locked, tap to unlock</string>
+
+    <!--URL Strings-->
+    <string name="base_url">https://api.nasa.gov/</string>
+    <string name="search_base_url">https://apod.nasa.gov/cgi-bin/apod/apod_search</string>
+    <string name="about_apod_url">https://apod.nasa.gov/apod/lib/about_apod.html</string>
+    <string name="main_site_url">https://apod.nasa.gov/</string>
+    <string name="apod_contribute_url">https://apod.nasa.gov/apod/lib/apsubmit2015.html</string>
+    <string name="apod_faq_url">https://apod.nasa.gov/apod/ap_faq.html</string>
+    <string name="author_gh_url">https://github.com/dd1929</string>
+    <string name="author_email_url">mailto:dd1929@protonmail.com</string>
+    <string name="author_tg_url">https://t.me/dev_dd1929</string>
+
+    <!-- Licenses  -->
+    <string name="apache_v2">Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\n         http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</string>
+    <string name="gpl_v3">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program.  If not, see https://www.gnu.org/licenses/.</string>
+    <string name="bsd_2">Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY %1$s ``AS IS\'\' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL %1$s OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nThe views and conclusions contained in the software and documentation are those of the authors and should not be interpreted as representing official policies, either expressed or implied, of %2$s</string>
+    <string name="mit">Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</string>
+
+    <string name="apache_v2_url">https://www.apache.org/licenses/LICENSE-2.0.html</string>
+    <string name="gpl_v3_url">https://www.gnu.org/licenses/gpl-3.0.en.html</string>
+    <string name="glide_license_url">https://github.com/bumptech/glide/blob/master/LICENSE</string>
+
+    <!-- Dependency Info -->
+    <string name="androidx_name">AndroidX</string>
+    <string name="androidx_author">Android Open Source Project (AOSP)</string>
+    <string name="androidx_desc">Suite of libraries, tools and guidance to help developers write high-quality apps easier.</string>
+    <string name="androidx_cr">Copyright 2005 – 2011 The Android Open Source Project</string>
+    <string name="androidx_src">https://android.googlesource.com/platform/frameworks/support/</string>
+    <string name="androidx_site">https://developer.android.com/jetpack</string>
+
+    <string name="mdc_name">Material Components for Android</string>
+    <string name="mdc_author">Google</string>
+    <string name="mdc_desc">Modular and customizable Design UI components for Android</string>
+    <string name="mdc_cr">Copyright 2016 – 2020 Google, Inc.</string>
+    <string name="mdc_src">https://github.com/material-components/material-components-android</string>
+    <string name="mdc_site">https://material.io/develop/android</string>
+
+    <string name="gson_name">Gson</string>
+    <string name="gson_author">Google</string>
+    <string name="gson_desc">A Java serialization/deserialization library to convert Java objects into JSON and back</string>
+    <string name="gson_cr">Copyright 2008 Google Inc.</string>
+    <string name="gson_src">https://github.com/google/gson</string>
+
+    <string name="glide_name">Glide</string>
+    <string name="glide_author">Sam Judd</string>
+    <string name="glide_desc">An image loading and caching library for Android focused on smooth scrolling</string>
+    <string name="glide_cr">Copyright 2014 Google, Inc. All Rights Reserved.</string>
+    <string name="glide_src">https://github.com/bumptech/glide</string>
+    <string name="glide_site">https://bumptech.github.io/glide</string>
+
+    <string name="gview_name">GestureViews</string>
+    <string name="gview_author">Alex Vasilkov</string>
+    <string name="gview_desc">ImageView and FrameLayout with gestures control and position animation</string>
+    <string name="gview_cr">Copyright 2018 alexvasilkov</string>
+    <string name="gview_src">https://github.com/alexvasilkov/GestureViews</string>
+
+    <string name="ssiv_name">Subsampling Scale Image View</string>
+    <string name="ssiv_author">Dave Morrissey</string>
+    <string name="ssiv_desc">Highly configurable, easily extendable deep zoom view for displaying huge images without loss of detail</string>
+    <string name="ssiv_cr">Copyright 2018 Dave Morrissey</string>
+    <string name="ssiv_src">https://github.com/davemorrissey/subsampling-scale-image-view</string>
+
+    <string name="rf_name">Retrofit</string>
+    <string name="rf_author">Square, Inc.</string>
+    <string name="rf_desc">A type-safe HTTP client for Android and Java</string>
+    <string name="rf_cr">Copyright 2013 Square, Inc.</string>
+    <string name="rf_src">https://github.com/square/retrofit</string>
+    <string name="rf_site">https://square.github.io/retrofit</string>
+
+    <string name="okhttp_name">OkHttp</string>
+    <string name="okhttp_author">Square, Inc.</string>
+    <string name="okhttp_desc">Square\'s meticulous HTTP client for the JVM, Android and GraalVM</string>
+    <string name="okhttp_cr">Copyright 2019 Square, Inc.</string>
+    <string name="okhttp_src">https://github.com/square/okhttp</string>
+    <string name="okhttp_site">https://square.github.io/okhttp</string>
+
+    <string name="blmm_name">BetterLinkMovementMethod</string>
+    <string name="blmm_author">Saket Narayan</string>
+    <string name="blmm_desc">Attempts to improve how clickable links are detected, highlighted and handled in TextView</string>
+    <string name="blmm_cr">Copyright 2018 Saket Narayan</string>
+    <string name="blmm_src">https://github.com/saket/Better-Link-Movement-Method</string>
+    <string name="title_activity_settings2">SettingsActivity2</string>
+
+    <!-- Month Names -->
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+
+</resources>

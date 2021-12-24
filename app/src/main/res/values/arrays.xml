@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="view_entries">
+        <item>Grid View</item>
+        <item>List View</item>
+    </string-array>
+    <string-array name="view_entry_values">
+        <item>grid</item>
+        <item>list</item>
+    </string-array>
+
+    <string-array name="theme_entries">
+        <item>System Default</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="theme_entry_values">
+        <item>system</item>
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+
+    <string-array name="auto_wallpaper_quality_entries">
+        <item>High Quality (if available)</item>
+        <item>Normal Quality</item>
+    </string-array>
+    <string-array name="auto_wallpaper_quality_entry_values">
+        <item>high</item>
+        <item>low</item>
+    </string-array>
+
+    <string-array name="wallpaper_target_entries">
+        <item>Home Screen</item>
+        <item>Lock Screen</item>
+        <item>Both Home and Lock Screens</item>
+    </string-array>
+    <string-array name="wallpaper_target_entry_values">
+        <item>home</item>
+        <item>lock</item>
+        <item>both</item>
+    </string-array>
+
+    <string-array name="image_quality_entries">
+        <item>Ask me every time</item>
+        <item>High Quality (if available)</item>
+        <item>Normal Quality</item>
+    </string-array>
+    <string-array name="image_quality_entry_values">
+        <item>ask</item>
+        <item>high</item>
+        <item>low</item>
+    </string-array>
+</resources>

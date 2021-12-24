@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light_blue">#7CD2FA</color>
+    <color name="blue">#42A5F5</color>
+    <color name="dark_blue">#1D65E1</color>
+    <color name="purple">#B18CF3</color>
+    <color name="dark_purple">#8C57D6</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#9B9B9B</color>
+    <color name="light_grey">#EAEAEA</color>
+    <color name="dark_grey">#494848</color>
+    <color name="background_splash">#2960D8</color>
+    <color name="icon_color">@color/grey</color>
+    <color name="transparent">#00000000</color>
+    <color name="background_color">@color/white</color>
+    <color name="month_year_button_background">@color/blue</color>
+    <color name="search_bar_background">@color/light_grey</color>
+    <color name="search_bar_foreground">#757575</color>
+    <color name="swipe_refresh_color_background">@color/white</color>
+    <color name="bottom_sheet_color_background">@color/white</color>
+    <color name="navigation_view_color_background">@color/white</color>
+    <color name="color_primary">@color/blue</color>
+    <color name="color_primary_translucent">#6542A5F5</color>
+</resources>
