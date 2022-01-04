@@ -26,6 +26,14 @@ For successful compilation, follow these steps:
 4. Proceed to compile:
     * If you have an emulator or physical device connected, go to Run > Run 'app', or use the Run button on the toolbar at the top.
     * To create an APK, go to Build > Generate Signed Bundle / APK. Use your own keystore, and make sure to check both *V1 (JAR signing)* and *V2 (Full APK signing)*. Then you can install the APK on a device.
+
+### In the Terminal
+1. Make sure Git, Java, Gradle and the Android SDK are properly installed.
+2. Clone this git repository with ```git clone https://github.com/dd1929/apod-viewer.git```.
+3. Navigate into the root of the repository with ```cd apod-viewer```.
+4. Proceed to compile:
+    * If you have an emulator or physical device connected, create and install a debug APK with ```gradle installDebug```.
+    * To simply create a debug APK, simply run ```gradle assembleDebug```. The APK can be found in *apod-viewer\app\build\outputs\apk\debug*. Then you can install the APK on a device.
   
 ## Feedback
 
