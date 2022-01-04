@@ -1,10 +1,10 @@
-## About APOD Viewer
+# About APOD Viewer
 
 APOD Viewer is a viewer app for the Astronomy Photo Of the Day service from NASA. For more information about APOD, go here: https://apod.nasa.gov/apod/lib/about_apod.html
 
 This app is licensed under GNU GPL v3, a copy of which is provided in this repository. If not, see: https://www.gnu.org/licenses/
 
-### Features
+## Features
 
 * __Basic functionality__ - View APODs within the app, irrespective of whether they are photos or videos; read the informative explanations about the APODs, as provided by NASA
 * __Save to device__ - Download *image APODs* to device so that they are viewable in the device gallery
