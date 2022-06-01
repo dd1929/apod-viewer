@@ -1,3 +1,7 @@
+# NOTE: This repository is no longer actively maintained. For future updates go to https://github.com/dd1929/apod-viewer.
+
+------
+
 # About APOD Viewer
 
 APOD Viewer is a viewer app for the Astronomy Photo Of the Day service from NASA. For more information about APOD, go here: https://apod.nasa.gov/apod/lib/about_apod.html
